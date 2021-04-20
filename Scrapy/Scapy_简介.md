@@ -34,6 +34,18 @@ scrapy矿架的基本使用
                 在item类的定义相关的属性
                 将解析的数据封装到item类型的数据中
                 将item类型的对象提交给管道进行持久化存储
+    基于spider的全站爬取
+        需求：爬取校花网的美女图片
+        自行手动发送请求
+            手动发送请求
+                - yield scrapy.Requests(url,callback)callback专门用于数据见解析
+        五大核心组件
+            spider 引擎 下载器 管道 调度器
+            
+
+
+
+    
     
     
     
